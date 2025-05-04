@@ -26,7 +26,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = 'django-insecure-(0zdy7ad-m%b%$0geg^i-f78=!0$tea!@^=l(p#7=hwa@^2wt*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
@@ -36,7 +36,7 @@ EMAIL_HOST_USER = 'jjabay3@gmail.com'
 EMAIL_HOST_PASSWORD = 'iogu hhkn qytf aqne'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://withcrud.onrender.com']
 
 
 # Application definition
